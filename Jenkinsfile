@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running tests...'
-                sh './nonexistent_exec'
+                sh './main/hello_exec
             }
         }
         stage('Deploy') {
