@@ -17,9 +17,8 @@ pipeline {
             steps {
                 script {
                     echo 'Running compiled program...'
-                    sh '''
-                    ./PES2UG22CS125-1
-                    '''
+                    sh './missing_exec'
+
                 }
             }
         }
